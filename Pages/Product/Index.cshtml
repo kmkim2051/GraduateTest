@@ -1,0 +1,30 @@
+﻿@page
+@model GradTest2.Models.Product
+@{ ViewData["Title"] = "2021 졸업사정 프로젝트"; }
+
+<div class="text-center">
+    <h1 class="display-4">졸업 요건 이수 여부 확인</h1>
+    <p>[udrims -> 교과수업 -> 전체성적조회 -> 우측 엑셀 버튼] 다운로드 </p>
+    <p>엑셀 파일을 업로드해주세요</p>
+    <center>
+        <form asp-controller="Product" asp-action="Save" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td>이름</td>
+                    <td>
+                        <input type="text" asp-for="Name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>파일</td>
+                    <td>
+                        <input type="file" asp-for="Excel" />
+                    </td>
+                    </tr>
+                <tr>
+                    <td><input type="submit" value="Save" /></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</div>

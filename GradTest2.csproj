@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Controllers\" />
+    <None Remove="Views\" />
+    <None Remove="Views\Shared\" />
+    <None Remove="Pages\Shared\" />
+    <None Remove="Pages\Product\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\files\" />
+    <Folder Include="Pages\" />
+    <Folder Include="Pages\Shared\" />
+    <Folder Include="Pages\Product\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\files\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{F1542543-2579-44ED-9EBD-7D93D4264367}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ProductControllers.cs">
+    <Files>
+      <File FileName="Controllers/ProductControllers.cs" Line="41" Column="13" />
+      <File FileName="Pages/Product/Index.cshtml" Line="1" Column="6" />
+      <File FileName="Pages/Product/Test.html" Line="10" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GradTest2" expanded="True">
+            <Node name="GradTest2" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ProductControllers.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Product" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GradTest2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
